@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CounterComponent } from './counter.component';
+import { CounterButtonsComponent } from './counter-buttons.component';
 
-xdescribe('CounterComponent', () => {
-  let component: CounterComponent;
-  let fixture: ComponentFixture<CounterComponent>;
+xdescribe('CounterButtonsComponent', () => {
+  let component: CounterButtonsComponent;
+  let fixture: ComponentFixture<CounterButtonsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CounterComponent ]
+      declarations: [ CounterButtonsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CounterComponent);
+    fixture = TestBed.createComponent(CounterButtonsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

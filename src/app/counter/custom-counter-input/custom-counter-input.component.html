@@ -1,0 +1,8 @@
+<p>{{channelName$ | async}}</p>
+
+<input type="text" placeholder="Enter Value" name="value" [(ngModel)]="value" >
+<button class="btn btn-success" (click)="onAdd()" >Add to counter</button>
+
+<div>
+    <button (click)="changeName()" >Change Channel Name</button>
+</div>
